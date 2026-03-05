@@ -1,2 +1,5 @@
 item:
     Board: "LEGITIM"
+
+text:
+    Fav: "was added to your favourites"
