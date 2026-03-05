@@ -1,8 +1,8 @@
 item:
-    Board: LEGITIM
     Board: "LEGITIM"
-ikea005:
-    Name: "BARLAST"
-    Board: "LEGITIM"
+
+text:
+    Fav: "was added to your favourites"
+
 ikea005:
     Name: "BARLAST"
