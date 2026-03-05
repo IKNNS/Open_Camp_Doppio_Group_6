@@ -12,7 +12,7 @@ Verify from itempage
 
 Verify fav item
     [Arguments]    ${item}    ${text}
-    Wait For Elements State    p.hnf-toast__text >> text=${item} ${text}    visible
+    Wait For Elements State    ${itempage_locator.lbl_name} >> text=${item} ${text}    visible
 
     
     
