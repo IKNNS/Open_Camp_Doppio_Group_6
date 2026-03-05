@@ -20,4 +20,3 @@ Resource    ${CURDIR}/locators/favouritepage_locator.robot
 Variables    ${CURDIR}/testdata/data.yaml
 
 #translation
-

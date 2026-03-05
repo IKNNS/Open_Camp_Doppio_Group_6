@@ -6,19 +6,11 @@ Search item
     [Arguments]    ${item}
     Browser.Fill Text    ${homepage_locator.txt_searchbar}    ${item}
 
-Click search
+Click Search
     Browser.CLick    ${homepage_locator.ddl_item}
 
-Verify item from homepage
-    [Arguments]    ${item}
-    Wait For Elements State    ${homepage_locator.lbl_item}>>text=${item}    visible
-
-Click item    
-    Browser.Click    ${homepage_locator.lbl_item} 
-
-
-
-
+Click item
+    Browser.CLick    ${homepage_locator.click_item}
 
 
 
