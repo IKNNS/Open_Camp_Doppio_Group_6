@@ -8,8 +8,5 @@ Check accept cookie
     IF    ${visible}
         Browser.Click    ${common_locator.btn_acceptcookie}
     END
-
-# Verify Cookie
-#     Run Keyword And Ignore Error    Browser.Click    css=#onetrust-accept-btn-handler
     
     

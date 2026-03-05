@@ -3,8 +3,7 @@ Resource    ${CURDIR}/../resources/import.robot
 
 *** Test Cases ***
 TC_005 - Verify user can add product to favorites successfully
-    Browser.New Browser    chromium    headless=false    slowMo=0:00:00.5
-    Browser.New Page    https://www.ikea.com/th/en/
+    Open training website
     Check accept cookie
     CLick search bar
     Search item    ${item.Board}
@@ -17,5 +16,3 @@ TC_005 - Verify user can add product to favorites successfully
     Click view button
     Verify itemname form favpage    ${item.Board}
     Verify button form favpage
-
-    
