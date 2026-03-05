@@ -1,1 +1,1 @@
-${btn_create_account}           css=button[data-testid="create-account"]
+${login_page.btn_create_account}           css=button[data-testid="create-account"]
