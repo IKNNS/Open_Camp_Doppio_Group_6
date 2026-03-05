@@ -211,3 +211,4 @@ output.xml
 log.html
 report.html
 selenium-screenshot-*.png
+playwright-log.txt
