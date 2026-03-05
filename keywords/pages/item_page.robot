@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 *** Keywords ***
 CLick fav item
     Browser.Click    ${itempage_locator.btn_fav}
@@ -12,4 +10,3 @@ Add item to cart
     Browser.Click    ${itempage_locator.btn_addtocart}
 Go to shopping bag button
     Browser.Click    ${itempage_locator.btn_gotoshoppingbag}    
->>>>>>> Stashed changes

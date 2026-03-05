@@ -1,8 +1,8 @@
 item:
-<<<<<<< Updated upstream
     Board: LEGITIM
-=======
     Board: "LEGITIM"
 ikea005:
     Name: "BARLAST"
->>>>>>> Stashed changes
+    Board: "LEGITIM"
+ikea005:
+    Name: "BARLAST"

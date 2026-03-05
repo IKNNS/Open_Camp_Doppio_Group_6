@@ -7,14 +7,9 @@ TC_005 - Verify user can add product to favorites successfully
     Browser.New Page    https://www.ikea.com/th/en/
     Check accept cookie
     CLick search bar
-<<<<<<< Updated upstream
-    Search item
-    Click Search
-=======
     Search item    ${item.Board}
     Click search
     Click fav item
     Click view button
->>>>>>> Stashed changes
 
     
