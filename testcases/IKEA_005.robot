@@ -8,6 +8,8 @@ TC_005 - Verify user can add product to favorites successfully
     Check accept cookie
     CLick search bar
     Search item
-    Click Search
+    Click search
+    Click fav item
+    Click view button
 
     
