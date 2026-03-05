@@ -1,20 +1,16 @@
 *** Settings ***
 Resource    ${CURDIR}/../resources/import.robot
-
+Library    DebugLibrary
 *** Test Cases ***
-TC_005 - Verify user can add product to favorites successfully
+TC_004 - Verify user can add product successfully
     Browser.New Browser    chromium    headless=false    slowMo=0:00:00.5
     Browser.New Page    https://www.ikea.com/th/en/
     Check accept cookie
     CLick search bar
-<<<<<<< Updated upstream
-    Search item
-    Click Search
-=======
-    Search item    ${item.Board}
+    Search item    ${ikea005.Name}
     Click search
-    Click fav item
-    Click view button
->>>>>>> Stashed changes
-
-    
+    Click item
+    Add item to cart
+    Browser.Wait For Elements State    ${itempage_locator.btn_gotoshoppingbag}
+    Go to shopping bag button
+    Debug
