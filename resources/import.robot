@@ -1,6 +1,7 @@
 *** Settings ***
 #lib
 Library    Browser    strict=false
+Library    String
 
 #common
 Resource    ${CURDIR}/../keywords/common/common.robot
@@ -11,6 +12,7 @@ Resource    ${CURDIR}/../keywords/pages/topbar_page.robot
 Resource    ${CURDIR}/../keywords/pages/login_page.robot
 Resource    ${CURDIR}/../keywords/pages/item_page.robot
 Resource    ${CURDIR}/../keywords/pages/favourite_page.robot
+Resource    ${CURDIR}/../keywords/pages/search_page.robot
 
 #locators
 Resource    ${CURDIR}/locators/common_locator.robot
@@ -19,9 +21,13 @@ Resource    ${CURDIR}/locators/login_locator.robot
 Resource    ${CURDIR}/locators/homepage_locator.robot
 Resource    ${CURDIR}/locators/itempage_locator.robot
 Resource    ${CURDIR}/locators/favouritepage_locator.robot
+Resource    ${CURDIR}/locators/search_locator.robot
 
 #yaml files
 Variables    ${CURDIR}/testdata/data.yaml
 
 #translation
 # Variables   ${CURDIR}/translation/${LANG}.yaml
+
+
+

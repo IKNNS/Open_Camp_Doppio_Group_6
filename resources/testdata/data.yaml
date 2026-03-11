@@ -8,5 +8,11 @@ item:
 text:
     Fav: "was added to your favourites"
 
+ikea003:
+    product_id: "70591749"
+    product_name: STOCKHOLM 2025
+    product_color: "brown"
+    product_description: "2-seat sofa, Alhamn dark brown"
+
 ikea005:
     Name: "BARLAST"
